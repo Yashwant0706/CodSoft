@@ -38,8 +38,8 @@ public class NumberGame {
                     System.out.println("Guessed too low ! Try again");
                 }
             }
-            if (isGuessed = false) {
-                System.out.println("You have used all your attempts. The correct number is" + number);
+            if (!isGuessed) {
+                System.out.println("You have used all your attempts. The correct number is " + number);
             }
 
             // ----Score Display----
