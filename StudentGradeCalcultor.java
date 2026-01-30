@@ -11,7 +11,7 @@ public class StudentGradeCalcultor {
 
         //----Input marks----//
         for (int i = 1; i <= n; i++) {
-            System.out.println("Enter marks of Subject " + i + " (out of 100");
+            System.out.println("Enter marks of Subject " + i + " (out of 100)");
             int marks = sc.nextInt();
 
             //----Optional Vaidation----//

@@ -66,9 +66,9 @@ public class ATMSystem {
             System.out.println("4. Exit");
             System.out.print("Choose an option: ");
 
-            // ✅ Safe menu input
+            //  Safe menu input
             if (!input.hasNextInt()) {
-                System.out.println("Please enter a valid number (1–4).");
+                System.out.println("Please enter a valid number (1 to 4).");
                 input.next(); // clear invalid input
                 continue;
             }
